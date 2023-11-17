@@ -1,0 +1,33 @@
+
+body{
+    overflow: auto;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.right-div{
+    /* margin-left: 80%; */
+    display: flex;
+    padding-right: 40px;
+    right:0;
+    position: absolute;
+    justify-content: space-between;
+}
+.dashboard-name{
+    color:#ffffff!important;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:.1rem ;
+    font-size: bold;
+    
+}
+
+/* Adjust card font size for small screens */
+@media (max-width: 576px) {
+    .card {
+        font-size: 14px;
+        /* padding: 10px; */
+        height:25-px
+    }
+}
+
+
